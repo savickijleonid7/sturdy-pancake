@@ -1,0 +1,7 @@
+elif self.current_room.name == "monster":
+            if chosen_option == "Fight":
+                print("You bravely fight the monster!")
+                # Логика боя может быть добавлена здесь
+                print("Congratulations! You defeated the monster.")
+                time.sleep(1)
+                self.current_room = self.load_room("treasure")
